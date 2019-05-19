@@ -13,9 +13,24 @@ $ conda
 
 
 
+## Eclipse で開発
+まず先にプロジェクトをインポートしてください。[参考](https://www.javadrive.jp/eclipse3/project/index4.html)
+Landmarkについて
+[参考](https://www.pyimagesearch.com/2017/04/03/facial-landmarks-dlib-opencv-python/)
+### コード
+```
+import static daoda.Next.*;
+public class Main {
+	public static void main(String []args) {
+		MImage img = new MImage("temp.jpg"); <- src/image/に画像を入れてそれの名前
+		MImage.Points arr[] = img.getLandmark(); <- 画像のlandmarkをsyutoku
+		for (int i = 0; i < arr.length; i++) {
+			println(i + ":" + arr[i].x + "/" + arr[i].y);
+		}
+	}
+}
 
-
-
+```
 
 
 
