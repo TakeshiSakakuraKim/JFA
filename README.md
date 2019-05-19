@@ -2,7 +2,7 @@
 
 ## 環境構築
 まずAnaconda入れてください。でないと出直してください。  
-ちなみにAnacondaのインストールは[ここ](https://www.anaconda.com/distribution/)  
+ちなみにAnacondaのインストールは([ここ](https://www.anaconda.com/distribution/))  
 ダウンロードしたらちゃんとAnacondaのPATHを通してください。
 ```
 $ conda
@@ -14,9 +14,9 @@ $ conda
 
 
 ## Eclipse で開発
-まず先にプロジェクトをインポートしてください。[参考](https://www.javadrive.jp/eclipse3/project/index4.html)  
+まず先にプロジェクトをインポートしてください。([参考](https://www.javadrive.jp/eclipse3/project/index4.html))  
 Landmarkについて
-[参考](https://www.pyimagesearch.com/2017/04/03/facial-landmarks-dlib-opencv-python/)
+([参考](https://www.pyimagesearch.com/2017/04/03/facial-landmarks-dlib-opencv-python/))
 ### コード
 ```
 import static daoda.Next.*;
