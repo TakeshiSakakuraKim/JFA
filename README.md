@@ -23,7 +23,7 @@ import static daoda.Next.*;
 public class Main {
 	public static void main(String []args) {
 		MImage img = new MImage("temp.jpg"); <- src/image/に画像を入れてそれの名前
-		MImage.Points arr[] = img.getLandmark(); <- 画像のlandmarkをsyutoku
+		MImage.Points arr[] = img.getLandmark(); <- 画像のlandmarkを取得
 		for (int i = 0; i < arr.length; i++) {
 			println(i + ":" + arr[i].x + "/" + arr[i].y);
 		}
